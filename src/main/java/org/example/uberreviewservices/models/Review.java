@@ -1,14 +1,18 @@
 package org.example.uberreviewservices.models;
 
 import jakarta.persistence.*;
+import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;
 import org.springframework.data.annotation.LastModifiedDate;
 
 import javax.annotation.processing.Generated;
 import java.util.Date;
-
-
+@Getter
+@Setter
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name="Bookingreviews")
 public class Review {
