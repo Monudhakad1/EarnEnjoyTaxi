@@ -9,6 +9,8 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.annotation.processing.Generated;
 import java.util.Date;
+import java.util.List;
+
 @Getter
 @Setter
 @Builder
@@ -31,16 +33,15 @@ public class Review {
 
     Double rating;
 
-
+    @Column(nullable =false)
             @Temporal(TemporalType.TIMESTAMP) // tells spring about time date type
             @CreatedDate // this anotation tells spring only adjust creation
     Date createdAt;
 
-
+    @Column(nullable =false)
             @Temporal(TemporalType.TIMESTAMP) // date property
             @LastModifiedDate
     Date updatedAt;
-
 
 }
 
