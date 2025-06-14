@@ -5,6 +5,7 @@ import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;
 import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.annotation.processing.Generated;
 import java.util.Date;
@@ -13,6 +14,7 @@ import java.util.Date;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@EntityListeners(AuditingEntityListener.class)
 @Entity
 @Table(name="Bookingreviews")
 public class Review {
@@ -21,18 +23,20 @@ public class Review {
     @GeneratedValue(strategy = GenerationType.IDENTITY)  // IDENTITY MEANS AUTO INCREMENT AND MANY MORE RESEARCH AND ADD THEM
     long id;
 
-    @Column(nullable=false)
+
+    @Column(nullable =false)
     String content;
+
 
 
     Double rating;
 
-    @Column(nullable=false)
+
             @Temporal(TemporalType.TIMESTAMP) // tells spring about time date type
             @CreatedDate // this anotation tells spring only adjust creation
     Date createdAt;
 
-    @Column(nullable=false)
+
             @Temporal(TemporalType.TIMESTAMP) // date property
             @LastModifiedDate
     Date updatedAt;
