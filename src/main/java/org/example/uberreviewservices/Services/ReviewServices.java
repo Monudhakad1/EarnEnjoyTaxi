@@ -4,8 +4,6 @@ import org.example.uberreviewservices.Repositories.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Service;
-
-import java.util.Date;
 import java.util.List;
 
 @Service
@@ -26,6 +24,7 @@ public class ReviewServices implements CommandLineRunner {
 
           List<Review> reviews = reviewRepository.findAll();
           reviewRepository.deleteById(3L);
+
           for(Review review : reviews){
               System.out.println(review.getContent());
           }
