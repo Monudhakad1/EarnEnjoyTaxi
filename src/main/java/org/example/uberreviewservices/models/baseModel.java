@@ -13,7 +13,7 @@ import java.util.Date;
 public abstract class baseModel {
 
     @Id  //this property makes the id property as a primary key
-    @GeneratedValue(strategy = GenerationType.IDENTITY)  // IDENTITY MEANS AUTO INCREMENT AND MANY MORE RESEARCH AND ADD THEM
+    @GeneratedValue(strategy = GenerationType.TABLE)  // IDENTITY MEANS AUTO INCREMENT AND MANY MORE RESEARCH AND ADD THEM
     protected long id;
 
 
