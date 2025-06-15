@@ -13,7 +13,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 @NoArgsConstructor
 @EntityListeners(AuditingEntityListener.class)
 @Entity
-@Table(name="Bookingreviews")
+@Table(name="Booking_reviews")
 @Inheritance(strategy =InheritanceType.JOINED )
 public class Review extends baseModel{
 
