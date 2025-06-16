@@ -24,6 +24,14 @@ public class booking extends baseModel {
     private Date endTime;
 
     private long totalDistance;
+
+    @ManyToOne
+    private Driver driver; //Many to one that means many id in booking
+
+    @ManyToOne
+    private Passenger passenger;
+
+
 }
 
 // One booking has one review
