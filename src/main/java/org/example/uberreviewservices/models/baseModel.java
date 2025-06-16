@@ -20,7 +20,7 @@ public abstract class baseModel {
 
     @Column(nullable =false)
     @Temporal(TemporalType.TIMESTAMP) // tells spring about time date type
-    @CreatedDate // this anotation tells spring only adjust creation
+    @CreatedDate // this annotation tells spring only adjust creation
    protected Date createdAt;
 
 
@@ -29,3 +29,6 @@ public abstract class baseModel {
     @LastModifiedDate
    protected Date updatedAt;
 }
+//relations hip in sql --- 1:1 , 1:many , may:many , many:one //sql support
+// composition      verses    inheritance ---
+
