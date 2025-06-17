@@ -32,6 +32,8 @@ public class booking extends baseModel {
     private Passenger passenger;
 
 
+
+
 }
 
 // One booking has one review
