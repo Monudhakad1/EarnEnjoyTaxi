@@ -28,9 +28,7 @@ public class booking extends baseModel {
     @ManyToOne
     private Driver driver; //Many to one that means many id in booking
 
-    @ManyToOne
     private Passenger passenger;
-
 
 
 
