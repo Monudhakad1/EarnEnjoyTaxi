@@ -22,13 +22,17 @@ public class Driver extends BaseModel{
 
     private String name;
 
+
     @Column(nullable = false, unique = true)
     private String licenseNumber;
 
-    private String phoneNumber;
+    private String mobileNumber;
+
+    private String address;
 
     // 1 : n , Driver : Booking
     @OneToMany(mappedBy = "driver")
-    @Fetch(FetchMode.SUBSELECT)
+    @Fetch(FetchMode.SUBSELECT) // solves n+1 queries
     private List<Booking> bookings;
+
 }
