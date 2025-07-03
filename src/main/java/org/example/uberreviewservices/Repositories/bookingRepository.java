@@ -12,5 +12,7 @@ import java.util.List;
 @Repository
 public interface BookingRepository extends JpaRepository<Booking, Long> {
 
+    @Query("select r from Booking b inner join Review r  where b.id=:bookingId")
+    Review findReviewByBookingId(Long bookingId);
 
 }
