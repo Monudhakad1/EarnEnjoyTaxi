@@ -9,7 +9,7 @@ public class CreateReviewDto {
 
     private String content;
 
-    private Double rating;
+    private double rating;
 
     private Long bookingId;
 
