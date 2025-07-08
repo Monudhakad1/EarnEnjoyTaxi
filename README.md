@@ -23,7 +23,8 @@ A Spring Boot microservice for managing ride reviews in an Uber-like application
 - **Spring Data JPA**
 - **Hibernate**
 - **MySQL** (or any RDBMS)
-- **Maven**
+- **Gradle**
+- **Postman (Testing )**
 
 ---
 
