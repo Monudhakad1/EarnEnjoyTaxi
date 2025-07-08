@@ -92,7 +92,7 @@ uber\_review\_services/
 4. **Run the application**
 
    ```bash
-   ./mvnw spring-boot:run
+   ./gradlew bootrun
    ```
 
    Or use your IDE to run the `main` class.
