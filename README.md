@@ -75,7 +75,7 @@ uber\_review\_services/
 
    cd uber_review_services
 
-   ```
+   ````
 
 3. **Configure your database**
 
@@ -86,7 +86,7 @@ uber\_review\_services/
    spring.datasource.username=root
    spring.datasource.password=enterthepasswordhere
    spring.jpa.hibernate.ddl-auto=update
-   ```
+   ````
 
 4. **Run the application**
 
@@ -94,7 +94,7 @@ uber\_review\_services/
 
    ./gradlew bootrun
 
-   ```
+   ````
 
    Or use your IDE to run the `main` class.
 
