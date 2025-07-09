@@ -114,6 +114,9 @@ a
 * **Monu Dhakad**
 * 📌 *Engineering Student*
 * [LinkedIn](https://www.linkedin.com/in/monu-dhakad-42b525276/)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Monudhakad1&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+</p>
 
 ---
 
