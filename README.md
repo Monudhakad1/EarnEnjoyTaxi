@@ -1,5 +1,8 @@
 # 🚖 Uber Review Services
 
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=monudhakad1.uber_review_service)
+
+
 A Spring Boot microservice for managing ride reviews in an Uber-like application.
 
 ---
@@ -114,9 +117,6 @@ a
 * **Monu Dhakad**
 * 📌 *Engineering Student*
 * [LinkedIn](https://www.linkedin.com/in/monu-dhakad-42b525276/)
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Monudhakad1&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-</p>
 
 ---
 
