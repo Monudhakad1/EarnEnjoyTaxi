@@ -1,6 +1,3 @@
-Got it — here’s a **single, clean `README.md`** file for your **`uber_review_services`** project. Just copy and paste this whole thing into your `README.md` on GitHub:
-
-```markdown
 # 🚖 Uber Review Services
 
 A Spring Boot microservice for managing ride reviews in an Uber-like application.
@@ -75,7 +72,9 @@ uber\_review\_services/
 2. **Navigate to the project**
 
    ```bash
+
    cd uber_review_services
+
    ```
 
 3. **Configure your database**
@@ -92,7 +91,9 @@ uber\_review\_services/
 4. **Run the application**
 
    ```bash
+
    ./gradlew bootrun
+
    ```
 
    Or use your IDE to run the `main` class.
