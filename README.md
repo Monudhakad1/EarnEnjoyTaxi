@@ -67,18 +67,16 @@ uber\_review\_services/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/monudhakad1/uber_review_service.git
-````
+    ``
 
 2. **Navigate to the project**
-
    ```bash
+   cd uber_review_service
+``
 
-   cd uber_review_services
-
-   ````
 
 3. **Configure your database**
-
+a
    Open `src/main/resources/application.properties` and set:
 
    ```properties
